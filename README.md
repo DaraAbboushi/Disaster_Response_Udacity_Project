@@ -56,6 +56,10 @@ Figure Eight for providing the relevant dataset to train the model.
 # Screenshots for showing some the execution steps of the program:
 
 1- This is where you can write a sentence in the box to test the performance of the model based on what type of the category it classifies the text by turning the category into a green light:
+![Screenshot 6](https://github.com/user-attachments/assets/93735b62-a8af-415d-96e8-8c9864898405)
+
+
+
 
 2- After you type it, click on classify message, there you can see the categories which the message belongs to as the color turns to green
 
