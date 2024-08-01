@@ -11,7 +11,7 @@ Key steps of the project:
 
 
 # Imported Libraries
-1) Python 3
+1) The program uses Python 3 and above
 2) Cleaning data: Numpy, Pandas
 3) NLP processing: NLTK, Sciki-Learn
 4) SQLite Database: SQLalchemy
@@ -59,8 +59,6 @@ Figure Eight for providing the relevant dataset to train the model.
 ![Screenshot 6](https://github.com/user-attachments/assets/93735b62-a8af-415d-96e8-8c9864898405)
 
 
-
-
 2- After you type it, click on classify message, there you can see the categories which the message belongs to as the color turns to green
 
 ![Screenshot 3](https://github.com/user-attachments/assets/e26c3a56-17a3-47c6-8535-59ba5b093139)
@@ -69,12 +67,14 @@ Figure Eight for providing the relevant dataset to train the model.
  ![Screenshot 4](https://github.com/user-attachments/assets/969f8ac1-f428-4027-814b-183cc07137b2)
  
 4- Sample run of process_data.py
-
-5- Sample run of train_classify.py
-
-6- Sample run of train_classifier.py with precision, recall etc. for each category
+![Screenshot 1 Udacity](https://github.com/user-attachments/assets/b9a0a6ca-40b4-4768-946a-eec9ae241ec8)
 
 
+5- Sample run of train_classifier.py with precision, recall etc. for each category
+![Screenshot 2](https://github.com/user-attachments/assets/19549f8a-3689-4c55-bcfc-b92dcd00c589)
 
+
+6- Sample run of run.py
+![Screenshot 5](https://github.com/user-attachments/assets/292c4f3a-90a7-436a-8acc-154c56b5eac0)
 
 
