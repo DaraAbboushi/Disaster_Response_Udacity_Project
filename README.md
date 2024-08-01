@@ -63,8 +63,11 @@ Figure Eight for providing the relevant dataset to train the model.
 
 2- After you type it, click on classify message, there you can see the categories which the message belongs to as the color turns to green
 
-3- The main page shows some graphs about training dataset, provided by Figure Eight
+![Screenshot 3](https://github.com/user-attachments/assets/e26c3a56-17a3-47c6-8535-59ba5b093139)
 
+3- The main page shows some graphs about training dataset provided by Figure Eight.
+ ![Screenshot 4](https://github.com/user-attachments/assets/969f8ac1-f428-4027-814b-183cc07137b2)
+ 
 4- Sample run of process_data.py
 
 5- Sample run of train_classify.py
