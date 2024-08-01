@@ -53,7 +53,7 @@ run.py: This file can be used to launch the Flask web app used to classify disas
 Udacity for providing an this amazing and exciting Data Science Nanodegree Program
 Figure Eight for providing the relevant dataset to train the model.
 
-# Screenshots for showing some the execution steps of the program:
+# Screenshots for showing some of the execution steps of the program:
 
 1- This is where you can write a sentence in the box to test the performance of the model based on what type of the category it classifies the text by turning the category into a green light:
 ![Screenshot 6](https://github.com/user-attachments/assets/93735b62-a8af-415d-96e8-8c9864898405)
