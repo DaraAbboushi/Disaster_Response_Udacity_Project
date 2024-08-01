@@ -1,1 +1,60 @@
 # Disaster_Response_Udacity_Project
+
+# Project Description
+This project is Udacity's Nanodegree program project introduced by Figure Eight. The dataset that was used includes prelablled texts and messages from real world disaster situations.
+The aim of the project is to clean the datasets and build Natural Language Processing model to train on the dataset and use to classify messages based on real ones in crisis. 
+
+Key steps of the project:
+1) Build an ETL pipeline in order to process and clean the raw data in the datasets in order to feed it in the training and testing process in the next step by saving it in an SQLight (.db) file type.
+2) Build an NLP pipeline - ML Algorithm to train it on classifying texts in various labels/categories.
+3) Running a web app to test it on real world texts and show the results of the model classification.  
+
+
+# Imported Libraries
+1) Python 3
+2) Cleaning data: Numpy, Pandas
+3) NLP processing: NLTK, Sciki-Learn
+4) SQLite Database: SQLalchemy
+5) Model Loading and Saving: Pickle
+6) Web App and Data Visualization: Flask, Plotly
+
+
+# How to execute the program:
+
+1) To set up the database, train model and save the model, just follow and run the commands bellow for each part in the directory:
+   - In order to process data and clean it, we use the ETL built pipeline: python data/process_data.py data/disaster_messages.csv
+   data/disaster_categories.csv data/disaster_response_db.db
+   - To train the model, use it for testing and save as a pickle file as a ML pipeline saved as .db file from the above step:
+   python models/train_classifier.py data/disaster_response_db.db models/classifier.pkl
+
+2) After you run the above steps in the directory, you run this command in the app's directory to run your web app: python run.py
+
+
+# Extra Materials and files:
+
+I included two files in the models and data files that explain the ETL and NLP pipelines step by step to easily follow along:
+  1- ETL Pipeline: to understand how ETL pipeline was built and implemented.
+  2- NLP Pipeline: to understand how NLP pipeline was built and implemented using NLTK and Sciki-Learn
+  
+Feel free to test them yourself either to clean data or re-train the model and test the data using different classifiers or by changing the parameters for the Grid Search.
+
+# Explanation of Files:
+
+app/templates/: html files used to execute the web app
+
+data/process_data.py: Extract Transform Load (ETL) pipeline used for data cleaning and storing data in a SQLite database.
+
+models/train_classifier.py: A machine learning pipeline that loads data, etxracts features, trains a model, and saves the trained model as a .pkl file for later use.
+
+run.py: This file can be used to launch the Flask web app used to classify disaster messages into categories.
+
+# Acknowladgments:
+
+Udacity for providing an this amazing and exciting Data Science Nanodegree Program
+Figure Eight for providing the relevant dataset to train the model.
+
+# Screenshots for showing some the execution steps of the program:
+
+
+
+
