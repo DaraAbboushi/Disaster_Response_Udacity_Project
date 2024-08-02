@@ -3,6 +3,11 @@
 # Project Description
 This project is Udacity's Nanodegree program project introduced by Figure Eight. The dataset that was used includes prelablled texts and messages from real world disaster situations.
 The aim of the project is to clean the datasets and build Natural Language Processing model to train on the dataset and use to classify messages based on real ones in crisis. 
+   # The importance of the project:
+   In this project, the pre-labeled disaster messages builds a disaster response model that can categorize messages received in real time during a disaster event, so that messages can be sent to the right disaster response agency, and it is very helpful because every message will be classified to its rightful category and to the correct agency in turn helping a lot of people who need help quickly and effeciently.
+
+   This project includes a web application where disaster response worker can input messages received and get classification results without wasting time.
+
 
 Key steps of the project:
 1) Build an ETL pipeline in order to process and clean the raw data in the datasets in order to feed it in the training and testing process in the next step by saving it in an SQLight (.db) file type.
@@ -52,6 +57,9 @@ run.py: This file can be used to launch the Flask web app used to classify disas
 
 Udacity for providing an this amazing and exciting Data Science Nanodegree Program
 Figure Eight for providing the relevant dataset to train the model.
+
+Authors:
+Dara Abboushi
 
 # Screenshots for showing some of the execution steps of the program:
 
